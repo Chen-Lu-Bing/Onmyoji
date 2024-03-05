@@ -1,0 +1,247 @@
+.top_logo {
+    width: 100%;
+    height: 150px;
+}
+
+.top_logo p {
+    text-align: center;
+}
+
+.top_logo img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+
+/* ---------------------------导航栏---------------------------------------- */
+.top_logo nav {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: royalblue;
+}
+
+.top_logo nav ul {
+    width: 1200px;
+    margin: 0 auto;
+    color: white;
+}
+
+.top_logo nav a {
+    display: block;
+    width: 200px;
+    height: 60px;
+    color: white;
+    line-height: 60px;
+    float: left;
+}
+
+.top_logo nav a:hover {
+    background-color: orangered;
+}
+
+
+/* ----------------------------------------轮播图--------------------------------------- */
+.banner {
+    width: 100%;
+    height: 650px;
+    line-height: 90px;
+    color: royalblue;
+    font-family: "华文宋体";
+    font-weight: 900;
+    text-align: center;
+    font-size: 60px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.banner .gif {
+    width: 1200px;
+    position: absolute;
+    right: 0;
+    left: auto;
+    top: auto;
+    transform: rotate(180deg);
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: royalblue;
+    text-align: center;
+}
+
+
+/* ----------------------------游戏介绍---------------------------------------------------- */
+.jie_shao {
+    position: relative;
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 60px;
+    font-size: 20px;
+    overflow: hidden;
+    line-height: 50px;
+
+}
+
+.jie_shao img {
+    margin-top: 15px;
+    width: 380px;
+}
+
+.jie_shao img.img1 {
+    margin-right: 20px;
+    float: left;
+}
+
+.jie_shao img.img2 {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    float: right;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+
+/* -------------------------------人物介绍--------------------------------- */
+.ren_wu {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 60px;
+}
+
+.ren_wu table tr td {
+    position: relative;
+    overflow: hidden;
+}
+
+.ren_wu table tr td img {
+    width: 298px;
+    height: 500px;
+    margin-top: 30px;
+}
+
+.ren_wu table tr td a {
+    display: inline-block;
+    width: 298px;
+    height: 500px;
+    margin-top: 30px;
+    line-height: 60px;
+    position: absolute;
+    left: -298px;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(255, 138, 71, 0.8);
+    transition: all 1s;
+}
+
+.ren_wu table tr td a u {
+    display: inline-block;
+    line-height: 30px;
+    color: #fff;
+}
+
+.ren_wu table tr td:hover a {
+    display: inline-block;
+    width: 298px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    opacity: 1;
+}
+
+.ren_wu a:nth-last-child(1) {
+    display: block;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 20px auto;
+    color: white;
+    background-color: royalblue;
+}
+
+.ren_wu a:nth-last-child(1):hover {
+    background-color: orangered;
+}
+
+
+
+
+
+/* ---------------------------角色壁纸--------------------------------------- */
+.bi_zhi {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 70px;
+    overflow: hidden;
+}
+
+.bi_zhi table {
+    position: relative;
+    right: -170px;
+    top: -100px;
+    transform: rotate(-45deg);
+    border-collapse: separate;
+    border-spacing: 20px 20px;
+}
+
+.bi_zhi table tr td {
+    /* background-color: #1f7457; */
+    width: 260px;
+    height: 260px;
+    overflow: hidden;
+}
+
+.bi_zhi img {
+    width: 260px;
+    height: 260px;
+    transform: rotate(45deg) scale(1.5);
+}
+
+.bi_zhia {
+    display: block;
+    width: 180px;
+    height: 50px;
+    position: relative;
+    top: -320px;
+    text-align: center;
+    line-height: 50px;
+    margin: 20px auto;
+    color: white;
+    background-color: royalblue;
+}
+
+.bi_zhi a:hover {
+    background-color: orangered;
+}
+
+
+
+
+/* ----------------------------版权区------------------------------------------- */
+footer {
+    width: 100%;
+    height: 200px;
+    padding-top: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    margin-top: 60px;
+    background-color: rgb(10, 7, 37);
+}
